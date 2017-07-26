@@ -16,6 +16,8 @@ class User
      */
     private $passwordHash;
 
+    private $blogPosts;
+
     private function __construct(string $emailAddress, string $passwordHash)
     {
         $this->emailAddress = $emailAddress;
